@@ -2,6 +2,8 @@
 
 Build fast vagrant-base-boxes for further usage.
 
+forked and updated centos 6.6 target to use ansible rather than puppet
+
 ## Requirements
 
 * [virtualbox](https://www.virtualbox.org/)
@@ -10,10 +12,10 @@ Build fast vagrant-base-boxes for further usage.
 
 ## Build
 ```
-$ veewee vbox build debian-7.6-x86_64
+$ veewee vbox build centos-6.6-x86_64
 ```
 
 ## Export
 ```
-$ veewee vbox export debian-7.6-x86_64
+$ veewee vbox export centos-6.6-x86_64
 ```
